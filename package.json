@@ -1,0 +1,20 @@
+{
+  "name": "dynamic-client-scripts",
+  "version": "1.0.0",
+  "main": "lib/client.js",
+  "license": "MIT",
+  "description": "A set of scripts for managing (CRUD) dynamic OpenID Connect client registrations",
+  "author": "Filip Skokan",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "got": "^6.7.1"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
