@@ -1,16 +1,20 @@
 {
-  "name": "dynamic-client-scripts",
+  "name": "openid-client-cli",
   "version": "1.0.0",
-  "main": "lib/client.js",
+  "main": "lib/openid-client.js",
   "license": "MIT",
-  "description": "A set of scripts for managing (CRUD) dynamic OpenID Connect client registrations",
+  "description": "CLI for managing dynamic OpenID Connect client registrations",
   "author": "Filip Skokan",
+  "preferGlobal": true,
+  "bin": {
+    "openid-client": "./lib/openid-client.js"
+  },
   "dependencies": {
     "commander": "^2.9.0",
     "got": "^6.7.1"
   },
   "engines": {
-    "node": ">=7"
+    "node": ">=4"
   },
   "devDependencies": {
     "eslint": "^3.15.0",

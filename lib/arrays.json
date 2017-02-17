@@ -1,0 +1,10 @@
+{
+  "redirect_uris": true,
+  "contacts": true,
+  "default_acr_values": true,
+  "grant_types": true,
+  "post_logout_redirect_uris": true,
+  "redirect_uris": true,
+  "request_uris": true,
+  "response_types": true
+}
