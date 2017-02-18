@@ -30,7 +30,12 @@ and `delete`.
 
 Via npm:
 ```bash
-$ TODO
+$ npm install -g openid-client-cli
+```
+
+Via yarn:
+```bash
+$ yarn global add openid-client-cli
 ```
 
 ## Commands

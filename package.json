@@ -16,6 +16,10 @@
   "engines": {
     "node": ">=4"
   },
+  "scripts": {
+    "lint": "eslint lib",
+    "lint-fix": "eslint lib --fix"
+  },
   "devDependencies": {
     "eslint": "^3.15.0",
     "eslint-config-airbnb-base": "^11.1.0",
