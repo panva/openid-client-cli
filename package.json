@@ -1,6 +1,6 @@
 {
   "name": "openid-client-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/openid-client.js",
   "license": "MIT",
   "description": "CLI for managing dynamic OpenID Connect client registrations",
