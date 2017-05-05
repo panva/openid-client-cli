@@ -3,5 +3,11 @@
   "rules": {
     "strict": "off",
     "no-console": "off",
+    "newline-per-chained-call": [
+      "error",
+      {
+        "ignoreChainWithDepth": 5
+      }
+    ]
   }
 }

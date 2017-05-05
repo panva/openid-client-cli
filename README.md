@@ -14,6 +14,7 @@ CLI for managing dynamic OpenID Connect client registrations.
     - [create](#create)
     - [read](#read)
     - [update](#update)
+    - [edit](#edit)
     - [delete](#delete)
 
 <!-- TOC END -->
@@ -68,6 +69,19 @@ openid-client update --help
 Example:
 openid-client update --token=<registration_access_token> --uri=<registration_client_uri> \
   client_name=null
+```
+
+### edit
+
+Similar to `update` but opens a text editor specified via `$EDITOR` and updates
+the client with the result. Make sure to have your editor configured properly
+to stay in the foreground (e.g. EDITOR="code --wait" for VS Code).
+
+```bash
+openid-client edit --help
+
+Example:
+openid-client edit --token=<registration_access_token> --uri=<registration_client_uri>
 ```
 
 ### delete
