@@ -6,5 +6,6 @@
   "post_logout_redirect_uris": true,
   "redirect_uris": true,
   "request_uris": true,
-  "response_types": true
+  "response_types": true,
+  "web_message_uris": true
 }
